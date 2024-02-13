@@ -11,6 +11,6 @@ from functools import reduce
 
 def Σ_digits(number : int):
     return reduce(lambda a, b : a + b, map(int, list(str(number))))
-    # I'm using the python typechecker and I get a TypeError if I pass str(number) as my 2nd argument without the map()
+    # I'm using the python typechecker so I get a TypeError if I pass str(number) as my 2nd argument without the map()
 
 print(Σ_digits(122))

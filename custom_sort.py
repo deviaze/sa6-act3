@@ -1,3 +1,5 @@
+# custom_sort.py
+    # by dev_chrysalis!
 '''
 Problem 2: Custom Sort Order
 Objective: Given a list of strings, use a lambda function to sort the list in ascending order based on the length of the strings. In case of a tie, sort the strings alphabetically.
